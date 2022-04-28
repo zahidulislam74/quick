@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+li{
+	list-style: none;
+}
+/**************************
+ header section css 
+ * *************************/
+ header{
+ 	width: 100%;
+ 	background-color: #fff;
+ 	padding: 20px 0px;
+ 	border-bottom: 1px solid rgb(192, 192, 192);
+ }
+ .container{
+ 	width: 1140px;
+ 	margin: auto;
+ }
+ .navber{
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ .menu{
+ 	line-height: 2.4;
+ }
+ .menu ul li{
+ 	display: inline-block;
+ 	margin-left: 20px;
+ }
+ .menu ul li a{
+ 	color: rgb(92, 92, 92);
+ 	letter-spacing: 1px;
+ }
+ /**************************
+ banner section css 
+ * *************************/
+ #banner{
+ 	width: 100%;
+ 	background-color: #fff;
+ 	padding: 70px 0px;
+ }
+ .b-content{
+ 	text-align: center;
+ }
+ .b-content h1{
+ 	font-size: 50px;
+    color: #0F2656;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+ }
+ .b-content span{
+ 	color: #008AFF;
+ }
+ .b-content p{
+ 	color: #112857;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 25px;
+}
+ /**************************
+ project section css 
+ * *************************/
+ #project{
+   width: 100%;
+   background-color: #fff;
+   padding: 50px 0px;
+ }
+ .p-content{
+   display: flex;
+ }
+ .p-desc{
+   text-align: right;
+ }
+ .p-desc, .p-title{
+   flex-basis: 50%;
+   margin: 16px;
+ }
+ .p-desc h1{
+   font-size: 56px;
+   color: #F15767;
+ }
+ .p-desc p{
+   font-size: 16px;
+   line-height: 1.5;
+   color: #656565;
+ }
+.p-title h1{
+   font-size: 56px;
+   line-height: 1.2;
+   color: #0E2656;
+}
+/**************************
+ creativity section css 
+ * *************************/
+ #creativity{
+   width: 100%;
+   padding: 50px 0px;
+ }
+ .c-content{
+   display: grid;
+   grid-template-columns: auto auto auto;
+ }
+ .c-content img{
+   width: 100%;
+   height: auto;
+ }
+ .c-content h3{
+   font-size: 18px;
+   color: #00205C;
+ }
+ .c-content p{
+   color: #656565;
+   font-size: 15px;
+ }
+ .c1, .c2, .c3{
+   margin: 16px;
+   padding: 50px 20px;
+ }
+ .c1{
+   background-color: #FDEBED;
+ }
+ .c2{
+   background-color: #EBF9F4;
+ }
+ .c3{
+   background-color: #FFF7E8;
+ }
+/**************************
+ ffooter section css 
+ * *************************/
+
+ footer{
+   width: 100%;
+   background-color: #008AFF;
+
+}
+.f-content{
+
+   padding: 30px 0px;
+   text-align: center;
+}
+.f-content p{
+   color: #96D0FF;
+   font-size: 14px;
+}
+.f-content span{
+   color: white;
+   font-weight: 700;
+   letter-spacing: 3px;
+}
